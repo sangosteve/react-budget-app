@@ -1,0 +1,20 @@
+.Header{
+    width: 100%;
+    border: solid 1px blue;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header .tr-type-totals{
+    width: 100%;
+    border: solid 1px purple;
+    min-height: 50%;
+    display: flex;
+}
+
+.Header .tr-type-totals span.tr-type{
+    width: 50%;
+    height: 50%;
+    border: solid 1px black;
+}
