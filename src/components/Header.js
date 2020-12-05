@@ -6,8 +6,8 @@ function Header(props){
         <div className="Header">
             <div><h4>Available Balance</h4></div>
             <div className="tr-type-totals">
-                <span class="tr-type income"><h5>Income: {props.income}</h5></span>
-                <span class="tr-type expense"><h5>Expense: {props.expense}</h5></span>
+                <span className="tr-type income"><h5>Income: {props.totalIncome}</h5></span>
+                <span className="tr-type expense"><h5>Expense: {props.totalExpense}</h5></span>
             </div>
             
         </div>
